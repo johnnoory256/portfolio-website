@@ -1690,6 +1690,7 @@ input, select, textarea {
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
+		margin-top: 2rem;
 	}
 
 		input[type="button"]:hover,
@@ -1699,6 +1700,7 @@ input, select, textarea {
 		.button:hover {
 			background-color: #43bff0;
 			color: #fff !important;
+			
 		}
 
 		input[type="button"]:active,
@@ -1707,7 +1709,7 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: #3BA8D3;
-			top: 1px;
+			top: 10px;
 		}
 
 		input[type="button"].large,
@@ -1911,13 +1913,15 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-		text-align: center;
+		background: #eee;
+		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+		text-align: center; 
 		padding: 2em;
 	}
 
+
 		.box.style1 {
+		
 			padding: 3em 2em 3.5em 2em;
 		}
 
@@ -2299,6 +2303,7 @@ input, select, textarea {
 				font-size: 1.2em;
 				width: 100%;
 				padding: 1em 0 1em 0;
+				
 			}
 
 				input[type="button"].large,
@@ -2308,6 +2313,7 @@ input, select, textarea {
 				.button.large {
 					font-size: 1.2em;
 					letter-spacing: 0;
+
 				}
 
 		/* Social */
